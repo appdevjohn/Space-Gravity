@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC40FA722511227500A4239E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA712511227500A4239E /* AppDelegate.swift */; };
+		AC40FA7D2511227500A4239E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC40FA7B2511227500A4239E /* Main.storyboard */; };
+		AC40FA7F2511227600A4239E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40FA7E2511227600A4239E /* Assets.xcassets */; };
+		AC40FA822511227600A4239E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC40FA802511227600A4239E /* LaunchScreen.storyboard */; };
+		AC40FA8E251122ED00A4239E /* SPGGameKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA8A251122ED00A4239E /* SPGGameKitManager.swift */; };
+		AC40FA90251122ED00A4239E /* SPGSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA8C251122ED00A4239E /* SPGSoundManager.swift */; };
+		AC40FA9B2511236000A4239E /* LevelPickerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA932511235F00A4239E /* LevelPickerScene.swift */; };
+		AC40FA9C2511236000A4239E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA942511235F00A4239E /* GameOverScene.swift */; };
+		AC40FA9D2511236000A4239E /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA952511235F00A4239E /* MainMenuScene.swift */; };
+		AC40FA9E2511236000A4239E /* ClassicModeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA962511236000A4239E /* ClassicModeScene.swift */; };
+		AC40FA9F2511236000A4239E /* LevelFailedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA972511236000A4239E /* LevelFailedScene.swift */; };
+		AC40FAA02511236000A4239E /* AdventureModeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA982511236000A4239E /* AdventureModeScene.swift */; };
+		AC40FAA12511236000A4239E /* LevelTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA992511236000A4239E /* LevelTransitionScene.swift */; };
+		AC40FAAA251123B200A4239E /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA3251123B200A4239E /* Level4.sks */; };
+		AC40FAAB251123B200A4239E /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA4251123B200A4239E /* Level1.sks */; };
+		AC40FAAC251123B200A4239E /* TestLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA5251123B200A4239E /* TestLevel.sks */; };
+		AC40FAAD251123B200A4239E /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA6251123B200A4239E /* Level3.sks */; };
+		AC40FAAE251123B200A4239E /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA7251123B200A4239E /* Level2.sks */; };
+		AC40FAAF251123B200A4239E /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA8251123B200A4239E /* Level5.sks */; };
+		AC40FAB0251123B200A4239E /* TransitionMessages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA9251123B200A4239E /* TransitionMessages.plist */; };
+		AC40FAC4251123E200A4239E /* SPGAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB2251123E100A4239E /* SPGAlien.swift */; };
+		AC40FAC5251123E200A4239E /* SPGSlalom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB3251123E100A4239E /* SPGSlalom.swift */; };
+		AC40FAC6251123E200A4239E /* SPGMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB4251123E100A4239E /* SPGMenuBar.swift */; };
+		AC40FAC7251123E200A4239E /* SPGNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB5251123E100A4239E /* SPGNode.swift */; };
+		AC40FAC8251123E200A4239E /* SPGPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB6251123E100A4239E /* SPGPointer.swift */; };
+		AC40FAC9251123E200A4239E /* SPGSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB7251123E100A4239E /* SPGSwitch.swift */; };
+		AC40FACA251123E200A4239E /* SPGExplosion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB8251123E100A4239E /* SPGExplosion.swift */; };
+		AC40FACB251123E200A4239E /* SPGBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB9251123E100A4239E /* SPGBackground.swift */; };
+		AC40FACC251123E200A4239E /* SPGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABA251123E100A4239E /* SPGButton.swift */; };
+		AC40FACD251123E200A4239E /* SPGWormhole.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABB251123E100A4239E /* SPGWormhole.swift */; };
+		AC40FACE251123E200A4239E /* SPGEnumeratedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABC251123E100A4239E /* SPGEnumeratedTypes.swift */; };
+		AC40FACF251123E200A4239E /* SPGShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABD251123E100A4239E /* SPGShip.swift */; };
+		AC40FAD0251123E200A4239E /* SPGDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABE251123E100A4239E /* SPGDoor.swift */; };
+		AC40FAD1251123E200A4239E /* SPGAsteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FABF251123E100A4239E /* SPGAsteroid.swift */; };
+		AC40FAD2251123E200A4239E /* SPGStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAC0251123E200A4239E /* SPGStardust.swift */; };
+		AC40FAD3251123E200A4239E /* SPGWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAC1251123E200A4239E /* SPGWall.swift */; };
+		AC40FAD4251123E200A4239E /* SPGGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAC2251123E200A4239E /* SPGGoal.swift */; };
+		AC40FAD5251123E200A4239E /* SPGAudioNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAC3251123E200A4239E /* SPGAudioNode.swift */; };
+		AC40FADE2511244700A4239E /* Pause.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAD72511244700A4239E /* Pause.wav */; };
+		AC40FADF2511244700A4239E /* Purchased_2.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAD82511244700A4239E /* Purchased_2.caf */; };
+		AC40FAE02511244700A4239E /* Point.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAD92511244700A4239E /* Point.caf */; };
+		AC40FAE12511244700A4239E /* GameStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC40FADA2511244700A4239E /* GameStart.wav */; };
+		AC40FAE22511244700A4239E /* Point.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC40FADB2511244700A4239E /* Point.wav */; };
+		AC40FAE32511244700A4239E /* Propulsion.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC40FADC2511244700A4239E /* Propulsion.wav */; };
+		AC40FAE42511244700A4239E /* Purchased.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FADD2511244700A4239E /* Purchased.caf */; };
+		AC40FAE72511247100A4239E /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAE62511247100A4239E /* Explosion.atlas */; };
+		AC40FAE92511248C00A4239E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAE82511248C00A4239E /* README.md */; };
+		AC40FAEB2511249300A4239E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEA2511249300A4239E /* LICENSE */; };
+		AC40FAED251124EA00A4239E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEC251124EA00A4239E /* Localizable.strings */; };
+		AC40FAEF2511250900A4239E /* ShipThrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEE2511250900A4239E /* ShipThrust.sks */; };
+		AC40FAF4251128A700A4239E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */; };
+		AC40FAF5251128AA00A4239E /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF12511266600A4239E /* Montserrat-Medium.ttf */; };
+		AC40FAF6251128AC00A4239E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */; };
+		AC51549A2513096800CBCF71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5154992513096800CBCF71 /* GameViewController.swift */; };
+		ACE866FA2511404D003C3501 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866F92511404D003C3501 /* CloudKit.framework */; };
+		ACE866FC25114053003C3501 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866FB25114053003C3501 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC40FA6E2511227500A4239E /* Space Gravity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Gravity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC40FA712511227500A4239E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC40FA7C2511227500A4239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC40FA7E2511227600A4239E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC40FA812511227600A4239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC40FA832511227600A4239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC40FA8A251122ED00A4239E /* SPGGameKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGGameKitManager.swift; sourceTree = "<group>"; };
+		AC40FA8C251122ED00A4239E /* SPGSoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGSoundManager.swift; sourceTree = "<group>"; };
+		AC40FA932511235F00A4239E /* LevelPickerScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelPickerScene.swift; sourceTree = "<group>"; };
+		AC40FA942511235F00A4239E /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AC40FA952511235F00A4239E /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		AC40FA962511236000A4239E /* ClassicModeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicModeScene.swift; sourceTree = "<group>"; };
+		AC40FA972511236000A4239E /* LevelFailedScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFailedScene.swift; sourceTree = "<group>"; };
+		AC40FA982511236000A4239E /* AdventureModeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureModeScene.swift; sourceTree = "<group>"; };
+		AC40FA992511236000A4239E /* LevelTransitionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTransitionScene.swift; sourceTree = "<group>"; };
+		AC40FAA3251123B200A4239E /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		AC40FAA4251123B200A4239E /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		AC40FAA5251123B200A4239E /* TestLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestLevel.sks; sourceTree = "<group>"; };
+		AC40FAA6251123B200A4239E /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		AC40FAA7251123B200A4239E /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		AC40FAA8251123B200A4239E /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
+		AC40FAA9251123B200A4239E /* TransitionMessages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransitionMessages.plist; sourceTree = "<group>"; };
+		AC40FAB2251123E100A4239E /* SPGAlien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGAlien.swift; sourceTree = "<group>"; };
+		AC40FAB3251123E100A4239E /* SPGSlalom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGSlalom.swift; sourceTree = "<group>"; };
+		AC40FAB4251123E100A4239E /* SPGMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGMenuBar.swift; sourceTree = "<group>"; };
+		AC40FAB5251123E100A4239E /* SPGNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGNode.swift; sourceTree = "<group>"; };
+		AC40FAB6251123E100A4239E /* SPGPointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGPointer.swift; sourceTree = "<group>"; };
+		AC40FAB7251123E100A4239E /* SPGSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGSwitch.swift; sourceTree = "<group>"; };
+		AC40FAB8251123E100A4239E /* SPGExplosion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGExplosion.swift; sourceTree = "<group>"; };
+		AC40FAB9251123E100A4239E /* SPGBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGBackground.swift; sourceTree = "<group>"; };
+		AC40FABA251123E100A4239E /* SPGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGButton.swift; sourceTree = "<group>"; };
+		AC40FABB251123E100A4239E /* SPGWormhole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGWormhole.swift; sourceTree = "<group>"; };
+		AC40FABC251123E100A4239E /* SPGEnumeratedTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGEnumeratedTypes.swift; sourceTree = "<group>"; };
+		AC40FABD251123E100A4239E /* SPGShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGShip.swift; sourceTree = "<group>"; };
+		AC40FABE251123E100A4239E /* SPGDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGDoor.swift; sourceTree = "<group>"; };
+		AC40FABF251123E100A4239E /* SPGAsteroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGAsteroid.swift; sourceTree = "<group>"; };
+		AC40FAC0251123E200A4239E /* SPGStardust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGStardust.swift; sourceTree = "<group>"; };
+		AC40FAC1251123E200A4239E /* SPGWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGWall.swift; sourceTree = "<group>"; };
+		AC40FAC2251123E200A4239E /* SPGGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGGoal.swift; sourceTree = "<group>"; };
+		AC40FAC3251123E200A4239E /* SPGAudioNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGAudioNode.swift; sourceTree = "<group>"; };
+		AC40FAD72511244700A4239E /* Pause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Pause.wav; sourceTree = "<group>"; };
+		AC40FAD82511244700A4239E /* Purchased_2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Purchased_2.caf; sourceTree = "<group>"; };
+		AC40FAD92511244700A4239E /* Point.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Point.caf; sourceTree = "<group>"; };
+		AC40FADA2511244700A4239E /* GameStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameStart.wav; sourceTree = "<group>"; };
+		AC40FADB2511244700A4239E /* Point.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Point.wav; sourceTree = "<group>"; };
+		AC40FADC2511244700A4239E /* Propulsion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Propulsion.wav; sourceTree = "<group>"; };
+		AC40FADD2511244700A4239E /* Purchased.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Purchased.caf; sourceTree = "<group>"; };
+		AC40FAE52511245200A4239E /* Space Gravity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Space Gravity.entitlements"; sourceTree = "<group>"; };
+		AC40FAE62511247100A4239E /* Explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explosion.atlas; sourceTree = "<group>"; };
+		AC40FAE82511248C00A4239E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AC40FAEA2511249300A4239E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AC40FAEC251124EA00A4239E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AC40FAEE2511250900A4239E /* ShipThrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShipThrust.sks; sourceTree = "<group>"; };
+		AC40FAF12511266600A4239E /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		AC5154992513096800CBCF71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ACE866F92511404D003C3501 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		ACE866FB25114053003C3501 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC40FA6B2511227500A4239E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE866FA2511404D003C3501 /* CloudKit.framework in Frameworks */,
+				ACE866FC25114053003C3501 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC40FA652511227500A4239E = {
+			isa = PBXGroup;
+			children = (
+				AC40FAE82511248C00A4239E /* README.md */,
+				AC40FAEA2511249300A4239E /* LICENSE */,
+				AC40FA702511227500A4239E /* Space Gravity */,
+				AC40FA6F2511227500A4239E /* Products */,
+				ACE866F82511404D003C3501 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC40FA6F2511227500A4239E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FA6E2511227500A4239E /* Space Gravity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC40FA702511227500A4239E /* Space Gravity */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FA712511227500A4239E /* AppDelegate.swift */,
+				AC40FAE52511245200A4239E /* Space Gravity.entitlements */,
+				AC40FA912511235000A4239E /* Scenes */,
+				AC40FAB1251123C600A4239E /* Game Elements */,
+				AC40FAA22511237400A4239E /* Levels */,
+				AC5154992513096800CBCF71 /* GameViewController.swift */,
+				AC40FA8A251122ED00A4239E /* SPGGameKitManager.swift */,
+				AC40FA8C251122ED00A4239E /* SPGSoundManager.swift */,
+				AC40FA7B2511227500A4239E /* Main.storyboard */,
+				AC40FAEE2511250900A4239E /* ShipThrust.sks */,
+				AC40FAE62511247100A4239E /* Explosion.atlas */,
+				AC40FAD62511242D00A4239E /* Sounds */,
+				AC40FAF02511264400A4239E /* Fonts */,
+				AC40FA7E2511227600A4239E /* Assets.xcassets */,
+				AC40FA802511227600A4239E /* LaunchScreen.storyboard */,
+				AC40FA832511227600A4239E /* Info.plist */,
+				AC40FAEC251124EA00A4239E /* Localizable.strings */,
+			);
+			path = "Space Gravity";
+			sourceTree = "<group>";
+		};
+		AC40FA912511235000A4239E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FA982511236000A4239E /* AdventureModeScene.swift */,
+				AC40FA962511236000A4239E /* ClassicModeScene.swift */,
+				AC40FA942511235F00A4239E /* GameOverScene.swift */,
+				AC40FA972511236000A4239E /* LevelFailedScene.swift */,
+				AC40FA932511235F00A4239E /* LevelPickerScene.swift */,
+				AC40FA992511236000A4239E /* LevelTransitionScene.swift */,
+				AC40FA952511235F00A4239E /* MainMenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AC40FAA22511237400A4239E /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FAA4251123B200A4239E /* Level1.sks */,
+				AC40FAA7251123B200A4239E /* Level2.sks */,
+				AC40FAA6251123B200A4239E /* Level3.sks */,
+				AC40FAA3251123B200A4239E /* Level4.sks */,
+				AC40FAA8251123B200A4239E /* Level5.sks */,
+				AC40FAA5251123B200A4239E /* TestLevel.sks */,
+				AC40FAA9251123B200A4239E /* TransitionMessages.plist */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		AC40FAB1251123C600A4239E /* Game Elements */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FAB2251123E100A4239E /* SPGAlien.swift */,
+				AC40FABF251123E100A4239E /* SPGAsteroid.swift */,
+				AC40FAC3251123E200A4239E /* SPGAudioNode.swift */,
+				AC40FAB9251123E100A4239E /* SPGBackground.swift */,
+				AC40FABA251123E100A4239E /* SPGButton.swift */,
+				AC40FABE251123E100A4239E /* SPGDoor.swift */,
+				AC40FABC251123E100A4239E /* SPGEnumeratedTypes.swift */,
+				AC40FAB8251123E100A4239E /* SPGExplosion.swift */,
+				AC40FAC2251123E200A4239E /* SPGGoal.swift */,
+				AC40FAB4251123E100A4239E /* SPGMenuBar.swift */,
+				AC40FAB5251123E100A4239E /* SPGNode.swift */,
+				AC40FAB6251123E100A4239E /* SPGPointer.swift */,
+				AC40FABD251123E100A4239E /* SPGShip.swift */,
+				AC40FAB3251123E100A4239E /* SPGSlalom.swift */,
+				AC40FAC0251123E200A4239E /* SPGStardust.swift */,
+				AC40FAB7251123E100A4239E /* SPGSwitch.swift */,
+				AC40FAC1251123E200A4239E /* SPGWall.swift */,
+				AC40FABB251123E100A4239E /* SPGWormhole.swift */,
+			);
+			path = "Game Elements";
+			sourceTree = "<group>";
+		};
+		AC40FAD62511242D00A4239E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FADA2511244700A4239E /* GameStart.wav */,
+				AC40FAD72511244700A4239E /* Pause.wav */,
+				AC40FAD92511244700A4239E /* Point.caf */,
+				AC40FADB2511244700A4239E /* Point.wav */,
+				AC40FADC2511244700A4239E /* Propulsion.wav */,
+				AC40FAD82511244700A4239E /* Purchased_2.caf */,
+				AC40FADD2511244700A4239E /* Purchased.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC40FAF02511264400A4239E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */,
+				AC40FAF12511266600A4239E /* Montserrat-Medium.ttf */,
+				AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACE866F82511404D003C3501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE866FB25114053003C3501 /* GameKit.framework */,
+				ACE866F92511404D003C3501 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC40FA6D2511227500A4239E /* Space Gravity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC40FA862511227600A4239E /* Build configuration list for PBXNativeTarget "Space Gravity" */;
+			buildPhases = (
+				AC40FA6A2511227500A4239E /* Sources */,
+				AC40FA6B2511227500A4239E /* Frameworks */,
+				AC40FA6C2511227500A4239E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Gravity";
+			productName = "Space Gravity";
+			productReference = AC40FA6E2511227500A4239E /* Space Gravity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC40FA662511227500A4239E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "John Champion";
+				TargetAttributes = {
+					AC40FA6D2511227500A4239E = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = AC40FA692511227500A4239E /* Build configuration list for PBXProject "Space Gravity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC40FA652511227500A4239E;
+			productRefGroup = AC40FA6F2511227500A4239E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC40FA6D2511227500A4239E /* Space Gravity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC40FA6C2511227500A4239E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40FAE22511244700A4239E /* Point.wav in Resources */,
+				AC40FAE02511244700A4239E /* Point.caf in Resources */,
+				AC40FAAC251123B200A4239E /* TestLevel.sks in Resources */,
+				AC40FA7D2511227500A4239E /* Main.storyboard in Resources */,
+				AC40FAAA251123B200A4239E /* Level4.sks in Resources */,
+				AC40FAEF2511250900A4239E /* ShipThrust.sks in Resources */,
+				AC40FAE32511244700A4239E /* Propulsion.wav in Resources */,
+				AC40FAF4251128A700A4239E /* Montserrat-Bold.ttf in Resources */,
+				AC40FADE2511244700A4239E /* Pause.wav in Resources */,
+				AC40FAE42511244700A4239E /* Purchased.caf in Resources */,
+				AC40FAE12511244700A4239E /* GameStart.wav in Resources */,
+				AC40FAAE251123B200A4239E /* Level2.sks in Resources */,
+				AC40FAED251124EA00A4239E /* Localizable.strings in Resources */,
+				AC40FAF6251128AC00A4239E /* Montserrat-Regular.ttf in Resources */,
+				AC40FAAF251123B200A4239E /* Level5.sks in Resources */,
+				AC40FA7F2511227600A4239E /* Assets.xcassets in Resources */,
+				AC40FADF2511244700A4239E /* Purchased_2.caf in Resources */,
+				AC40FAE92511248C00A4239E /* README.md in Resources */,
+				AC40FAEB2511249300A4239E /* LICENSE in Resources */,
+				AC40FAE72511247100A4239E /* Explosion.atlas in Resources */,
+				AC40FAAD251123B200A4239E /* Level3.sks in Resources */,
+				AC40FA822511227600A4239E /* LaunchScreen.storyboard in Resources */,
+				AC40FAAB251123B200A4239E /* Level1.sks in Resources */,
+				AC40FAF5251128AA00A4239E /* Montserrat-Medium.ttf in Resources */,
+				AC40FAB0251123B200A4239E /* TransitionMessages.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC40FA6A2511227500A4239E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC40FACC251123E200A4239E /* SPGButton.swift in Sources */,
+				AC40FACA251123E200A4239E /* SPGExplosion.swift in Sources */,
+				AC40FAC8251123E200A4239E /* SPGPointer.swift in Sources */,
+				AC40FA9E2511236000A4239E /* ClassicModeScene.swift in Sources */,
+				AC40FAD5251123E200A4239E /* SPGAudioNode.swift in Sources */,
+				AC40FACF251123E200A4239E /* SPGShip.swift in Sources */,
+				AC40FA9B2511236000A4239E /* LevelPickerScene.swift in Sources */,
+				AC40FACB251123E200A4239E /* SPGBackground.swift in Sources */,
+				AC40FAC9251123E200A4239E /* SPGSwitch.swift in Sources */,
+				AC40FA9C2511236000A4239E /* GameOverScene.swift in Sources */,
+				AC51549A2513096800CBCF71 /* GameViewController.swift in Sources */,
+				AC40FA9D2511236000A4239E /* MainMenuScene.swift in Sources */,
+				AC40FACE251123E200A4239E /* SPGEnumeratedTypes.swift in Sources */,
+				AC40FA90251122ED00A4239E /* SPGSoundManager.swift in Sources */,
+				AC40FACD251123E200A4239E /* SPGWormhole.swift in Sources */,
+				AC40FAD2251123E200A4239E /* SPGStardust.swift in Sources */,
+				AC40FAD1251123E200A4239E /* SPGAsteroid.swift in Sources */,
+				AC40FAC5251123E200A4239E /* SPGSlalom.swift in Sources */,
+				AC40FAD4251123E200A4239E /* SPGGoal.swift in Sources */,
+				AC40FAC4251123E200A4239E /* SPGAlien.swift in Sources */,
+				AC40FAA02511236000A4239E /* AdventureModeScene.swift in Sources */,
+				AC40FA9F2511236000A4239E /* LevelFailedScene.swift in Sources */,
+				AC40FAD3251123E200A4239E /* SPGWall.swift in Sources */,
+				AC40FA8E251122ED00A4239E /* SPGGameKitManager.swift in Sources */,
+				AC40FAA12511236000A4239E /* LevelTransitionScene.swift in Sources */,
+				AC40FAC7251123E200A4239E /* SPGNode.swift in Sources */,
+				AC40FA722511227500A4239E /* AppDelegate.swift in Sources */,
+				AC40FAD0251123E200A4239E /* SPGDoor.swift in Sources */,
+				AC40FAC6251123E200A4239E /* SPGMenuBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC40FA7B2511227500A4239E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC40FA7C2511227500A4239E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC40FA802511227600A4239E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC40FA812511227600A4239E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC40FA842511227600A4239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC40FA852511227600A4239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC40FA872511227600A4239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space Gravity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blare.Space-Gravity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC40FA882511227600A4239E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Space Gravity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Blare.Space-Gravity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC40FA692511227500A4239E /* Build configuration list for PBXProject "Space Gravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40FA842511227600A4239E /* Debug */,
+				AC40FA852511227600A4239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC40FA862511227600A4239E /* Build configuration list for PBXNativeTarget "Space Gravity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC40FA872511227600A4239E /* Debug */,
+				AC40FA882511227600A4239E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC40FA662511227500A4239E /* Project object */;
+}

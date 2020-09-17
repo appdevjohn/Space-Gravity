@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Space Gravity
+
+  Created by John Champion on 4/15/20.
+  Copyright © 2020 John Champion. All rights reserved.
+*/
+"Classic" = "Casual";
+"Adventure" = "Adventure";
+"Scores" = "Scores";
+"Sound On" = "Sound On";
+"Sound Off" = "Sound Off";
+"Remove Ads" = "Remove Ads";
+
+"The ship flies toward your" = "The ship files toward your";
+"finger.  Watch your fuel." = "finger.  Watch your fuel.";
+"Avoid the asteroids." = "Avoid the asteroids.";
+"PAUSED" = "PAUSED";
+
+"Play Again" = "Play Again";
+"Share Score" = "Share Score";
+"Main Menu" = "Main Menu";
+"Your Score" = "Your Score: %i";
+"High Score" = "High Score: %i";
+"Times Played" = "Times Played: %i";
+
+"share_score_message" = "I got %i points in Space Gravity!  Try to beat it!";
