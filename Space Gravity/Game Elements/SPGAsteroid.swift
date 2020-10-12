@@ -30,7 +30,7 @@ class SPGAsteroid: SPGNode {
         self.name = "asteroid"
         
         // Setting up the physics body
-        self.physicsBody = SKPhysicsBody(texture: SKTexture(imageNamed: "asteroid.png"), alphaThreshold: 0.05, size: self.size)
+        self.physicsBody = SKPhysicsBody(circleOfRadius: self.size.width/2)
         self.physicsBody?.categoryBitMask = ContactCategory.asteroid.rawValue
         self.physicsBody?.contactTestBitMask = ContactCategory.ship.rawValue
         self.physicsBody?.isDynamic = false

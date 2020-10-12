@@ -28,7 +28,7 @@ class SPGGoal: SPGNode {
         self.name = "goal"
         
         // Setting up physics body
-        self.physicsBody = SKPhysicsBody(texture: SKTexture(imageNamed: "asteroid.png"), alphaThreshold: 0.05, size: self.size)
+        self.physicsBody = SKPhysicsBody(rectangleOf: self.size)
         self.physicsBody?.categoryBitMask = ContactCategory.goal.rawValue
         self.physicsBody?.contactTestBitMask = ContactCategory.ship.rawValue
         self.physicsBody?.isDynamic = false
