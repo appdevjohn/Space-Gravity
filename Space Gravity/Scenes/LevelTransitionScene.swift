@@ -77,9 +77,18 @@ class LevelTransitionScene: SKScene {
                     let transition = SKTransition.crossFade(withDuration: 1)
                     self.view?.presentScene(scene, transition: transition)
                 } else {
-                    let transition = SKTransition.fade(withDuration: 0.25)
-                    let scene = MainMenuScene(size: (self.view?.bounds.size)!)
-                    self.view?.presentScene(scene, transition: transition)
+//                    let transition = SKTransition.fade(withDuration: 0.25)
+//                    let scene = MainMenuScene(size: (self.view?.bounds.size)!)
+//                    self.view?.presentScene(scene, transition: transition)
+                    
+                    // The code above is temporarily commeted out. The code below will launch the test level.
+                    let scene = SKScene(fileNamed: "TestLevel")
+                    if scene!.userData == nil {
+                        scene!.userData = NSMutableDictionary()
+                    }
+                    scene!.userData?.setValue(self.level, forKey: "level")
+                    let transition = SKTransition.crossFade(withDuration: 1)
+                    self.view?.presentScene(scene!, transition: transition)
                 }
             })
         ]))

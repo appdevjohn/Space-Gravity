@@ -14,7 +14,7 @@ import SpriteKit
 class SPGAlien: SPGNode {
     
     /// The speed of the alien spacecraft.
-    var shipSpeed: CGFloat = 0
+    var alienSpeed: CGFloat = 0
 
     /**
     Properly instanciates an alien object.
@@ -25,7 +25,7 @@ class SPGAlien: SPGNode {
         
         self.name = "alien"
         self.position = position
-        self.shipSpeed = speed
+        self.alienSpeed = speed
         
         self.physicsBody = SKPhysicsBody(rectangleOf: size)
         self.physicsBody?.categoryBitMask = ContactCategory.asteroid.rawValue
@@ -43,7 +43,7 @@ class SPGAlien: SPGNode {
         let yLeg = shipPoint.y - self.position.y
         let hypotenuse = sqrt(pow(xLeg, 2) + pow(yLeg, 2))
         
-        let factor = self.shipSpeed / hypotenuse
+        let factor = self.alienSpeed / hypotenuse
         let newVelocity = CGVector(dx: xLeg*factor, dy: yLeg*factor)
         
         self.run(SKAction.move(by: newVelocity, duration: 0))

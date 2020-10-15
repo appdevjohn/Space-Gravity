@@ -61,6 +61,7 @@
 		AC40FAF5251128AA00A4239E /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF12511266600A4239E /* Montserrat-Medium.ttf */; };
 		AC40FAF6251128AC00A4239E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */; };
 		AC51549A2513096800CBCF71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5154992513096800CBCF71 /* GameViewController.swift */; };
+		AC9EBEDD25352EA800CD2D14 /* SPGComet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9EBEDC25352EA800CD2D14 /* SPGComet.swift */; };
 		ACE866FA2511404D003C3501 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866F92511404D003C3501 /* CloudKit.framework */; };
 		ACE866FC25114053003C3501 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866FB25114053003C3501 /* GameKit.framework */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		AC5154992513096800CBCF71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AC9EBEDC25352EA800CD2D14 /* SPGComet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGComet.swift; sourceTree = "<group>"; };
 		ACE866F92511404D003C3501 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		ACE866FB25114053003C3501 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -219,6 +221,7 @@
 				AC40FAC3251123E200A4239E /* SPGAudioNode.swift */,
 				AC40FAB9251123E100A4239E /* SPGBackground.swift */,
 				AC40FABA251123E100A4239E /* SPGButton.swift */,
+				AC9EBEDC25352EA800CD2D14 /* SPGComet.swift */,
 				AC40FABE251123E100A4239E /* SPGDoor.swift */,
 				AC40FABC251123E100A4239E /* SPGEnumeratedTypes.swift */,
 				AC40FAB8251123E100A4239E /* SPGExplosion.swift */,
@@ -385,6 +388,7 @@
 				AC40FAA02511236000A4239E /* AdventureModeScene.swift in Sources */,
 				AC40FA9F2511236000A4239E /* LevelFailedScene.swift in Sources */,
 				AC40FAD3251123E200A4239E /* SPGWall.swift in Sources */,
+				AC9EBEDD25352EA800CD2D14 /* SPGComet.swift in Sources */,
 				AC40FA8E251122ED00A4239E /* SPGGameKitManager.swift in Sources */,
 				AC40FAA12511236000A4239E /* LevelTransitionScene.swift in Sources */,
 				AC40FAC7251123E200A4239E /* SPGNode.swift in Sources */,

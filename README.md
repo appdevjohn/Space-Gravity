@@ -49,6 +49,9 @@ An alien will follow the ship wherever it goes at a defined set speed. If no spe
 ###### Slaloms
 Slaloms are narrow passes that are designed to require precise flying to pass through. If the ship flies into the bounderies, it is game over. This is an experimental game element; they do nothing special right now. The width of the slalom is planned to be added. The only properties that can be set right now are the position and the rotation. Drag and drop the node where it needs to go, rotate it, and set the name to `slalom`.
 
+###### Comets
+Comets are obects that move endlessly between a series of points. The ship will crash if it hits a comet. The comet takes a position, size, move duration, wait duration, and a series of points. The initial position which the sprite is placed counts as the first position. Drag and drop the node where it needs to start and set the name to `comet`, then set `moveDuration` and `waitDuration` under User Data as floats. The series of positions must be entered as a JSON string under the key `movePositions` under User Data.
+
 ---
 
 Space Gravity was developed by Bison Software in 2014. This version was developed as a remaster of that game by adding better art and graphics, new sounds, cleaner code, and the new Adventure Mode [in development].

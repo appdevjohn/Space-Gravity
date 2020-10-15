@@ -127,6 +127,11 @@ class AdventureModeScene: SKScene, SKPhysicsContactDelegate, SwitchDelegate {
                 node.removeFromParent()
                 self.addChild(alien)
                 self.aliens.append(alien)
+            } else if node.name == "comet" {
+                let comet = SPGComet(withPosition: node.position, node.frame.size, node.userData?["moveDuration"] as? TimeInterval ?? 1, node.userData?["waitDuration"] as? TimeInterval ?? 0, node.userData?["movePositions"] as? String ?? "[]")
+                node.removeFromParent()
+                self.addChild(comet)
+                comet.startMoving()
             }
         }
     }
