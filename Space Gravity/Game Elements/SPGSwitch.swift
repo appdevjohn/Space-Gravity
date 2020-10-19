@@ -27,15 +27,16 @@ class SPGSwitch: SPGNode {
     /**
     Properly instanciates a switch object.
     - parameter position: The position in which the switch is to spawn.
-    - parameter mode: The behavior which the switch is to adhear to.
+    - parameter duration: The duration which the switch will stay activated before deactivating.
+    - parameter channel: The channel which the switch will activate elements in the scene.
     */
-    init(withPosition position: CGPoint, duration: TimeInterval, id: Int) {
+    init(withPosition position: CGPoint, duration: TimeInterval, channel: Int) {
         super.init(texture: nil, color: .blue, size: CGSize(width: 40, height: 40))
         
         self.name = "switch"
         self.position = position
         self.duration = duration
-        self.id = id
+        self.channel = channel
         
         self.physicsBody = SKPhysicsBody(rectangleOf: size)
         self.physicsBody?.categoryBitMask = ContactCategory.interactive.rawValue

@@ -96,7 +96,7 @@ class AdventureModeScene: SKScene, SKPhysicsContactDelegate, SwitchDelegate {
                 self.addChild(wall)
                 
             } else if node.name == "switch" {
-                let switchNode = SPGSwitch(withPosition: node.position, duration: TimeInterval(node.userData?["duration"] as! Int), id: 0)
+                let switchNode = SPGSwitch(withPosition: node.position, duration: TimeInterval(node.userData?["duration"] as! Int), channel: node.userData?["channel"] as? Int ?? 0)
                 switchNode.delegate = self
                 node.removeFromParent()
                 self.addChild(switchNode)
@@ -127,8 +127,9 @@ class AdventureModeScene: SKScene, SKPhysicsContactDelegate, SwitchDelegate {
                 node.removeFromParent()
                 self.addChild(alien)
                 self.aliens.append(alien)
+                
             } else if node.name == "comet" {
-                let comet = SPGComet(withPosition: node.position, node.frame.size, node.userData?["moveDuration"] as? TimeInterval ?? 1, node.userData?["waitDuration"] as? TimeInterval ?? 0, node.userData?["movePositions"] as? String ?? "[]")
+                let comet = SPGComet(withPosition: node.position, node.frame.size, TimeInterval(node.userData?["moveDuration"] as? Float ?? 1.0), TimeInterval(node.userData?["waitDuration"] as? Float ?? 1.0), node.userData?["movePositions"] as? String ?? "[]")
                 node.removeFromParent()
                 self.addChild(comet)
                 comet.startMoving()
