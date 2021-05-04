@@ -2,6 +2,8 @@
 
 Space Gravity is a game about flying a space ship. The controls are simple: the ship will fly to wherever the player touches. He must be aware of the laws of physics and the fuel level of the ship at all times. There are two game modes: Classic and Adventure. The game is written in Swift, uses the SpriteKit framework, and uses the CloudKit and GameKit frameworks to save data to iCloud and report scores to the leaderboard.
 
+![Space Gravity](https://firebasestorage.googleapis.com/v0/b/personal-website-9aa44.appspot.com/o/Demo%20Videos%2Fspace-gravity.gif?alt=media&token=b00558da-4b60-4769-9808-ff9326d2753b)
+
 #### Classic Mode
 In classic mode, asteroids fly in from off screen. The objective is to avoid the asteroids for as long as possible. The longer the player survives, the higher the score.
 
