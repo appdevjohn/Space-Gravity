@@ -54,7 +54,6 @@
 		AC40FAE42511244700A4239E /* Purchased.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FADD2511244700A4239E /* Purchased.caf */; };
 		AC40FAE72511247100A4239E /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAE62511247100A4239E /* Explosion.atlas */; };
 		AC40FAE92511248C00A4239E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAE82511248C00A4239E /* README.md */; };
-		AC40FAEB2511249300A4239E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEA2511249300A4239E /* LICENSE */; };
 		AC40FAED251124EA00A4239E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEC251124EA00A4239E /* Localizable.strings */; };
 		AC40FAEF2511250900A4239E /* ShipThrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAEE2511250900A4239E /* ShipThrust.sks */; };
 		AC40FAF4251128A700A4239E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */; };
@@ -116,7 +115,6 @@
 		AC40FAE52511245200A4239E /* Space Gravity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Space Gravity.entitlements"; sourceTree = "<group>"; };
 		AC40FAE62511247100A4239E /* Explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explosion.atlas; sourceTree = "<group>"; };
 		AC40FAE82511248C00A4239E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AC40FAEA2511249300A4239E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AC40FAEC251124EA00A4239E /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		AC40FAEE2511250900A4239E /* ShipThrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShipThrust.sks; sourceTree = "<group>"; };
 		AC40FAF12511266600A4239E /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				AC40FAE82511248C00A4239E /* README.md */,
-				AC40FAEA2511249300A4239E /* LICENSE */,
 				AC40FA702511227500A4239E /* Space Gravity */,
 				AC40FA6F2511227500A4239E /* Products */,
 				ACE866F82511404D003C3501 /* Frameworks */,
@@ -345,7 +342,6 @@
 				AC40FA7F2511227600A4239E /* Assets.xcassets in Resources */,
 				AC40FADF2511244700A4239E /* Purchased_2.caf in Resources */,
 				AC40FAE92511248C00A4239E /* README.md in Resources */,
-				AC40FAEB2511249300A4239E /* LICENSE in Resources */,
 				AC40FAE72511247100A4239E /* Explosion.atlas in Resources */,
 				AC40FAAD251123B200A4239E /* Level3.sks in Resources */,
 				AC40FA822511227600A4239E /* LaunchScreen.storyboard in Resources */,
