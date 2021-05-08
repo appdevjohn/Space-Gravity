@@ -74,7 +74,7 @@ class SPGSwitch: SPGNode {
 /**
  These delegate functions are called to notify the scene that the switch is doing something.
  */
-protocol SwitchDelegate: class {
+protocol SwitchDelegate: AnyObject {
     
     /**
      Called when the switch has been activated.
