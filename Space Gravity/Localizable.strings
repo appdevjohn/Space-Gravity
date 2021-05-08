@@ -5,8 +5,7 @@
   Created by John Champion on 4/15/20.
   Copyright © 2020 John Champion. All rights reserved.
 */
-"Classic" = "Casual";
-"Adventure" = "Adventure";
+"Play" = "Play";
 "Scores" = "Scores";
 "Sound On" = "Sound On";
 "Sound Off" = "Sound Off";

@@ -15,8 +15,7 @@ class MainMenuScene: SKScene {
     var background: SPGBackground!
     
     // These strings are localized
-    let playClassicButtonText =     NSLocalizedString("Classic", comment: "The play button on the main menu.")
-    let playAdventureButtonText =   NSLocalizedString("Adventure", comment: "The button that links to adventure mode on the main menu.")
+    let playClassicButtonText =     NSLocalizedString("Play", comment: "The play button on the main menu.")
     let scoreButtonText =           NSLocalizedString("Scores", comment: "The button that shows the leaderboard.")
     let soundOnText =               NSLocalizedString("Sound On", comment: "The button toggled to say Sound On.")
     let soundOffText =              NSLocalizedString("Sound Off", comment: "The button toggled to say Sound Off.")
@@ -37,10 +36,6 @@ class MainMenuScene: SKScene {
                                               size: CGSize(width: 225, height: 50),
                                               fontSize: 24,
                                               nodeName: "classic")
-        let playAdventureButton =           SPGButton(withText: playAdventureButtonText,
-                                              size: CGSize(width: 225, height: 50),
-                                              fontSize: 24,
-                                              nodeName: "adventure")
         let viewLeaderboardButton = SPGButton(withText: scoreButtonText,
                                               size: CGSize(width: 150, height: 40),
                                               fontSize: 18,
@@ -51,14 +46,12 @@ class MainMenuScene: SKScene {
                                               nodeName: "mute")
         
         // Positioning the buttons
-        playClassicButton.position =        CGPoint(x: 0, y: -0)
-        playAdventureButton.position =      CGPoint(x: 0, y: -65)
+        playClassicButton.position =        CGPoint(x: 0, y: -60)
         viewLeaderboardButton.position =    CGPoint(x: 0, y: -145)
         muteButton.position =               CGPoint(x: 0, y: -200)
         
         // Setting the correct zPosition for the buttons
         playClassicButton.zPosition =       1
-        playAdventureButton.zPosition =     1
         viewLeaderboardButton.zPosition =   1
         muteButton.zPosition =              1
         
@@ -76,7 +69,6 @@ class MainMenuScene: SKScene {
         self.addChild(self.background)
         self.addChild(title)
         self.addChild(playClassicButton)
-        self.addChild(playAdventureButton)
         self.addChild(viewLeaderboardButton)
         self.addChild(muteButton)
     }
