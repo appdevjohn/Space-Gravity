@@ -20,12 +20,9 @@
 		AC40FA9F2511236000A4239E /* LevelFailedScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA972511236000A4239E /* LevelFailedScene.swift */; };
 		AC40FAA02511236000A4239E /* AdventureModeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA982511236000A4239E /* AdventureModeScene.swift */; };
 		AC40FAA12511236000A4239E /* LevelTransitionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FA992511236000A4239E /* LevelTransitionScene.swift */; };
-		AC40FAAA251123B200A4239E /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA3251123B200A4239E /* Level4.sks */; };
+		AC40FAAA251123B200A4239E /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA3251123B200A4239E /* Level3.sks */; };
 		AC40FAAB251123B200A4239E /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA4251123B200A4239E /* Level1.sks */; };
 		AC40FAAC251123B200A4239E /* TestLevel.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA5251123B200A4239E /* TestLevel.sks */; };
-		AC40FAAD251123B200A4239E /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA6251123B200A4239E /* Level3.sks */; };
-		AC40FAAE251123B200A4239E /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA7251123B200A4239E /* Level2.sks */; };
-		AC40FAAF251123B200A4239E /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA8251123B200A4239E /* Level5.sks */; };
 		AC40FAB0251123B200A4239E /* TransitionMessages.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAA9251123B200A4239E /* TransitionMessages.plist */; };
 		AC40FAC4251123E200A4239E /* SPGAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB2251123E100A4239E /* SPGAlien.swift */; };
 		AC40FAC5251123E200A4239E /* SPGSlalom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40FAB3251123E100A4239E /* SPGSlalom.swift */; };
@@ -61,6 +58,7 @@
 		AC40FAF6251128AC00A4239E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC40FAF22511266600A4239E /* Montserrat-Regular.ttf */; };
 		AC51549A2513096800CBCF71 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5154992513096800CBCF71 /* GameViewController.swift */; };
 		AC9EBEDD25352EA800CD2D14 /* SPGComet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9EBEDC25352EA800CD2D14 /* SPGComet.swift */; };
+		ACCD8D0F264719F6003E0BAD /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACCD8D0E264719F6003E0BAD /* Level2.sks */; };
 		ACE866FA2511404D003C3501 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866F92511404D003C3501 /* CloudKit.framework */; };
 		ACE866FC25114053003C3501 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE866FB25114053003C3501 /* GameKit.framework */; };
 /* End PBXBuildFile section */
@@ -81,12 +79,9 @@
 		AC40FA972511236000A4239E /* LevelFailedScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFailedScene.swift; sourceTree = "<group>"; };
 		AC40FA982511236000A4239E /* AdventureModeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdventureModeScene.swift; sourceTree = "<group>"; };
 		AC40FA992511236000A4239E /* LevelTransitionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTransitionScene.swift; sourceTree = "<group>"; };
-		AC40FAA3251123B200A4239E /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		AC40FAA3251123B200A4239E /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
 		AC40FAA4251123B200A4239E /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
 		AC40FAA5251123B200A4239E /* TestLevel.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestLevel.sks; sourceTree = "<group>"; };
-		AC40FAA6251123B200A4239E /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
-		AC40FAA7251123B200A4239E /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
-		AC40FAA8251123B200A4239E /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
 		AC40FAA9251123B200A4239E /* TransitionMessages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransitionMessages.plist; sourceTree = "<group>"; };
 		AC40FAB2251123E100A4239E /* SPGAlien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGAlien.swift; sourceTree = "<group>"; };
 		AC40FAB3251123E100A4239E /* SPGSlalom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGSlalom.swift; sourceTree = "<group>"; };
@@ -123,6 +118,7 @@
 		AC40FAF32511266600A4239E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		AC5154992513096800CBCF71 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AC9EBEDC25352EA800CD2D14 /* SPGComet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPGComet.swift; sourceTree = "<group>"; };
+		ACCD8D0E264719F6003E0BAD /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
 		ACE866F92511404D003C3501 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		ACE866FB25114053003C3501 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -200,10 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				AC40FAA4251123B200A4239E /* Level1.sks */,
-				AC40FAA7251123B200A4239E /* Level2.sks */,
-				AC40FAA6251123B200A4239E /* Level3.sks */,
-				AC40FAA3251123B200A4239E /* Level4.sks */,
-				AC40FAA8251123B200A4239E /* Level5.sks */,
+				ACCD8D0E264719F6003E0BAD /* Level2.sks */,
+				AC40FAA3251123B200A4239E /* Level3.sks */,
 				AC40FAA5251123B200A4239E /* TestLevel.sks */,
 				AC40FAA9251123B200A4239E /* TransitionMessages.plist */,
 			);
@@ -330,23 +324,21 @@
 				AC40FAE22511244700A4239E /* Point.wav in Resources */,
 				AC40FAE02511244700A4239E /* Point.caf in Resources */,
 				AC40FAAC251123B200A4239E /* TestLevel.sks in Resources */,
+				ACCD8D0F264719F6003E0BAD /* Level2.sks in Resources */,
 				AC40FA7D2511227500A4239E /* Main.storyboard in Resources */,
-				AC40FAAA251123B200A4239E /* Level4.sks in Resources */,
+				AC40FAAA251123B200A4239E /* Level3.sks in Resources */,
 				AC40FAEF2511250900A4239E /* ShipThrust.sks in Resources */,
 				AC40FAE32511244700A4239E /* Propulsion.wav in Resources */,
 				AC40FAF4251128A700A4239E /* Montserrat-Bold.ttf in Resources */,
 				AC40FADE2511244700A4239E /* Pause.wav in Resources */,
 				AC40FAE42511244700A4239E /* Purchased.caf in Resources */,
 				AC40FAE12511244700A4239E /* GameStart.wav in Resources */,
-				AC40FAAE251123B200A4239E /* Level2.sks in Resources */,
 				AC40FAED251124EA00A4239E /* Localizable.strings in Resources */,
 				AC40FAF6251128AC00A4239E /* Montserrat-Regular.ttf in Resources */,
-				AC40FAAF251123B200A4239E /* Level5.sks in Resources */,
 				AC40FA7F2511227600A4239E /* Assets.xcassets in Resources */,
 				AC40FADF2511244700A4239E /* Purchased_2.caf in Resources */,
 				AC40FAE92511248C00A4239E /* README.md in Resources */,
 				AC40FAE72511247100A4239E /* Explosion.atlas in Resources */,
-				AC40FAAD251123B200A4239E /* Level3.sks in Resources */,
 				AC40FA822511227600A4239E /* LaunchScreen.storyboard in Resources */,
 				AC40FAAB251123B200A4239E /* Level1.sks in Resources */,
 				AC40FAF5251128AA00A4239E /* Montserrat-Medium.ttf in Resources */,
